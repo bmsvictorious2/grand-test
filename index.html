@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Tech Skill Vocational Institute</h1>
+        <h1>Grand Test</h1>
+        <div id="timer" style="font-size: 24px; font-weight: bold; color: purple;">Time Remaining: 01:30:00</div>
+        <form id="testForm">
+        <div class="name-section">
+            <label for="studentName">Enter your name:</label>
+            <input style="height:40px; width: 180px;" type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+        <div class="question">
+            <p>1.Which following are example of data transformation module available  in azure machine learning designer?</p>
+            <input type="checkbox" id="inclusiveness" value="inclusiveness">
+            <label for="inclusiveness">Split data</label><br>
+            
+            <input type="checkbox" id="opinionatedness" value="opinionatedness">
+            <label for="opinionatedness">import data</label><br>
+            <input type="checkbox" id="reliability and safety" value="reliability and safety">
+            <label for="reliability and safety">clean missing data</label>
+            
+        </div>
+         <!-- question 2 -->
+        <div class="question">
+            <p>2.You are using Azure Machine Learning to develop a machine learning model to predict fuel efficiency (miles/gallon)
+                for automobiles manufactured between 2000 and 2010. Which machine learning algorithm would be the best choice for
+                building this model?</p>
+            <input type="checkbox" id="SetPrimarymetrictoaccuracy" value="Set Primary metric to accuracy.">
+            <label for="Set Primary metric to accuracy.">Regression</label><br>
+            
+            <input type="checkbox" id="EnableExplainbestmodel" value="Enable Explain best model">
+            <label for="Enable Explain best model">Classification</label>
+            
+        </div>
+    
+         <!-- question 3 -->
+
+
+<div class="question">
+    <p>3.Data value that inflence the prediction of model is called------</p>
+    <select id="question3">
+        <option value="">--Select an answer--</option>
+        <option value="inclusiveness">Feature</option>
+        <option value="reliability and safety">Label</option>
+        <option value="transparency">Independent variable</option>
+        
+    </select>
+</div>
+         <!-- question 4 -->
+
+<div class="question">
+    <p>4.You are working on an application that uses computer vision to identify unwanted plant species growing alongside
+        crops in farmer's fields. Which Azure Cognitive Service is the best choice to help you train your image classification
+        model?</p>
+    <select id="question4">
+        <option value="">--Select an answer--</option>
+        <option value="inclusiveness">Computer Vision</option>
+        <option value="reliability and safety">Custom vision</option>
+        <option value="transparency">Anomaly detector</option>
+        
+    </select>
+</div>
+
+         <!-- question 5-->
+         <div class="question">
+            <p>4.You have been given a data set that is unlabeled and includes detailed customer information. You would like to use
+                Azure Machine Learning to uncover data patterns and groupings. Which machine learning algorithm is the best choice?</p>
+            <input type="radio" id=" guiding" name="train" value="VALUE1">
+            <label for="fairness">Clustering</label>
+            <BR>
+            <input type="radio" id="guiding" name="train" value="VALUE2">
+            <label for="inclusiveness">Regression</label>
+            <br>
+            <input type="radio" id="guiding" name="train" value="VALUE3">
+            <label for="accountability">Classification</label>
+        </div>
+<!-- question 6-->
+<div class="question">
+    6.<p><img src="apple.jpg" alt=""> </p>
+    <input type="radio" id="CNN" name="model" value="CNN">
+    <label for="CNN">Oject detection</label>
+    
+    <input type="radio" id="RNN" name="model" value="RNN">
+    <label for="RNN">image classification</label>
+    
+    
+</div>
+<!-- question 7-->
+<div class="question">
+    <p>7.You are writing an application that analyzes customer product reviews and flags reviews that have a negative
+        sentine, or Meit Azure Cognitive Service would you use to provide sentiment analysis and mark text as positive,</p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="ObjectDetection">Text Analytics</option>
+        
+        <option value="OCR">Language Understanding(LUIS)</option>
+    </select>
+</div>
+<!-- question 8-->
+<div class="question">
+    <p>8.Which of the following Azure Cognitive Services can be integrated with Azure Bot Services as the engine that
+        recognizes user intent to create an interactive chatbot application?</p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="fairness">Language understanding</option>
+        
+        <option value="inclusiveness">Text Analytics</option>
+    </select>
+</div>
+<div class="question">
+    <p>9. <img src="classification.jpg" alt="">Find true positive?</p>
+    <input type="radio" id="CNN" name="AI" value="CNN">
+    <label for="CNN">11</label>
+    
+    <input type="radio" id="RNN" name="AI" value="RNN">
+    <label for="RNN">1033</label>
+    
+    
+</div>
+<div class="question">
+    <p>10.Which of the following statement belong to classification?</p>
+      <input type="radio" id="Detect individual objects in an image" name="images" value="Detect individual objects in an image">
+      <label for="Detect individual objects in an image">Classification algorithms use labeled training data to build a model and predict the category
+        (class) of yet unseen data items.</label><BR></BR>
+      
+      <input type="radio" id="Assign a label to each pixel in the image" name="images" value="Assign a label to each pixel in the image">
+      <label for="Assign  label to each pixel in the image">Classification algorithms are an example of unsupervised machine learning.</label><BR></BR>
+     
+      
+  </div>
+  
+    <div class="question">
+        <p>11.What key piece of information do you need to call your QnA Maker service from a client application??</p>
+        <input type="radio" id="Building AI systems that require no human oversight" name="At" value="Building AI systems that require no human oversight">
+        <label for="Building AI systems that require no human oversight">The REST endpoint URL for your QnA Maker service</label><br>
+        
+        <input type="radio" id="standards" name="At" value="standards">
+        <label for="standards">The hostname for the machine hosting your QnA Maker services</label>
+        
+</div>
+<div class="question">
+    <p>12:When training a model, why should you randomly split the rows into separate subsets?</p>
+      
+      <input type="radio" id="Elevenlabs" name="image" value="OCR">
+      <label for="Elevenlabs">to train the model twice to attain better accuracy</label>
+      <input type="radio" id="Elevenlabs" name="image" value="Face detection">
+      <label for="Elevenlabs">To test the model by using data that was not used to train the model</label>
+      
+      
+  </div>
+  <div class="question">
+    <p>13.Which of the following features are supported by the Azure Text Analytics API? (Choose 2 answers)?</p>
+    <input type="checkbox" id="speech1" value="speech1">
+    <label for="speech1">language detection</label><br>
+    
+    <input type="checkbox" id="speech2" value="speech2">
+    <label for="speech2">text to speech services</label><br>
+    <input type="checkbox" id="speech3" value="speech3">
+    <label for="speech3">named entity recognition</label>
+    
+</div>
+<div class="question">
+    <p>14.Your company wants to build a recycling machine for bottles. The recycling machine must automatically identify
+        bottles of the correct shape and reject all other items.
+        Which type of Al workload should the company use?</p>
+    <input type="radio" id="NO" name="Angle" value="6">
+    <label for="6">Computer vision</label><br>
+    
+    <input type="radio" id="Yes" name="Angle" value="4">
+    <label for="4">Anomaly Detection</label>
+    
+    
+</div>
+<div class="question">
+    <p>15:You are processing photos of runners in a race.
+        You need to read the numbers on the runners' shirts to identity the runners in the photos.
+        Which type of computer vision should you use?
+    </p>
+    <input type="radio" id="NO" name="Angl" value="6">
+    <label for="6">OCR</label><br>
+    
+    <input type="radio" id="Yes" name="Angl" value="4">
+    <label for="4">Object Detection</label>
+    
+    
+</div>
+<div class="question">
+    <p>16:You need to determine the location of cars in an image so that you can estimate the distance between the cars.
+        Which type of computer vision should you use?
+    </p>
+    <input type="radio" id="NO" name="test" value="6">
+    <label for="6">OCR</label><br>
+    
+    <input type="radio" id="Yes" name="test" value="4">
+    <label for="4">Object Detection</label>
+    
+    
+</div>
+<div class="question">
+    <p>17:I give two statement show which type belong to which category? <br>1.Does this person look like other people.<br>2.Who is this person in this group of people.
+    </p>
+    <input type="radio" id="NO" name="SIM" value="2">
+    <label for="6">1.Similarity 2.Identification</label><br>
+    
+    <input type="radio" id="Yes" name="SIM" value="3">
+    <label for="4">1.Verification 2.Identification</label>
+    
+    
+</div>
+<div class="question">
+    <p>18. Which of the following features are supported by the Azure Text Analytics services?</p>
+    <input type="checkbox" id="video1" value="video1">
+    <label for="video1">The Text Analytics service can identify in which language text is written</label><br>
+
+    <input type="checkbox" id="video2" value="video2">
+    <label for="video2">The Text Analytics service can detect handwritten signatures in a document.</label><br>
+
+    <input type="checkbox" id="video3" value="video3">
+    <label for="video3">The Text Analytics service can identify companies and organizations mentioned in a document.</label>
+</div>
+<div class="question">
+    <p>19:Which task should you include to ensure that the service meets the Microsoft transparency principle for responsible Al?
+
+    </p>
+    <input type="radio" id="NO" name="S" value="1">
+    <label for="6">Ensure that all visuals have an associated text that can be read by a screen reader.
+    </label><br>
+    
+    <input type="radio" id="Yes" name="S" value="2">
+    <label for="4">Enable autoscaling to ensure that a service scales based on demand.
+    </label><br>
+    <input type="radio" id="Yes" name="S" value="3">
+    <label for="4">Provide documentation to help developers debug code.
+
+    </label>
+    
+</div>
+<div class="question">
+    <p>20:Automated machine learning works by running mutiple training
+        iterations that are scored and ranked by the metrics you specity?
+
+    </p>
+    <input type="radio" id="NO" name="Sw" value="1">
+    <label for="6">Yes
+    </label><br>
+    
+    <input type="radio" id="Yes" name="Sw" value="2">
+    <label for="4">No
+    </label><br>
+    
+    
+    
+</div>
+<div class="question">
+    <p>21:You need to create a training dataset and validation dataset from an existing dataset.
+        Which module in the Azure Machine Learning designer should you use?
+
+    </p>
+    <input type="radio" id="NO" name="Sp" value="1">
+    <label for="6">Select Columns in Dataset
+    </label><br>
+    
+    <input type="radio" id="Yes" name="Sp" value="2">
+    <label for="4">Add Rows
+    </label><br>
+    <input type="radio" id="Yes" name="Sp" value="4">
+    <label for="4">Split Data
+    </label><br>
+    
+    
+</div>
+
+<div class="question">
+    <p>22.You have a database that contains a list of employees and their photos.
+        You are tagging new photos of the employees.
+        Select two statement which belong to above situation.</p>
+    <input type="checkbox" id="vide1" value="vide1">
+    <label for="vide1">The Face service can be used to perform facial
+        recognition for employees</label><br>
+
+    <input type="checkbox" id="vide2" value="vide2">
+    <label for="vide2">The Face service will be more accurate if you provide more
+        sample photos of each employee from different angles.</label><br>
+
+    <input type="checkbox" id="vide3" value="vide3">
+    <label for="vide3">If an employee is wearing sunglasses, the Face service will
+        always fail to recognize the employee.</label>
+</div>
+
+<div class="question">
+    <p>23:While presenting at a conference, your session is transcribed into subtities for
+        the audience. This is an example of?
+
+    </p>
+    <input type="radio" id="NO" name="Sm" value="1">
+    <label for="6">Speech Recognition
+    </label><br>
+    
+    <input type="radio" id="Yes" name="Sm" value="2">
+    <label for="4">Speech Synthesis
+    </label><br>
+    
+    
+    
+</div>
+<div class="question">
+    <p>24.Which of the following statement belong to natural language processing.</p>
+    <input type="checkbox" id="vde1" value="vde1">
+    <label for="vde1">Monitoring online service reviews for profanities is an example of
+        natural language processing</label><br>
+
+    <input type="checkbox" id="vde2" value="vde2">
+    <label for="vde2">Identfying brand logos in an image is an example of natural
+        languages processing</label><br>
+
+    <input type="checkbox" id="vde3" value="vde3">
+    <label for="vde3">Monitoring public news sites for negative mentions of a product
+        is an example of natural language processing</label>
+</div>
+<div class="question">
+    <p>25:Which of the following Azure Cognitive Services would you choose to help build a conversational client application
+        using artificial intelligence to answer customer questions?
+
+    </p>
+    <input type="radio" id="NO" name="ww" value="1">
+    <label for="6">QnA Maker
+    </label><br>
+    
+    <input type="radio" id="Yes" name="ww" value="2">
+    <label for="4">Text Analytics
+    </label><br>
+    
+    
+    
+</div>
+<div class="question">
+    <p>26:Which tasks that can be performed by using the Computer Vision service? 
+
+    </p>
+    <input type="radio" id="NO" name="qu" value="1">
+    <label for="6">Train a custom image classification model.
+    </label><br>
+    
+    <input type="radio" id="Yes" name="qu" value="2">
+    <label for="4">Detect faces in an image.
+
+    </label><br>
+    <input type="radio" id="Yes" name="qu" value="3">
+    <label for="4">D. Translate the text in an image between languages.
+
+    </label>
+    
+    
+    
+</div>
+<div class="question">
+    <p>27:In which scenarios can you use in the Form Recognizer.
+    </p>
+    <select id="question27">
+        <option value="">--Select an answer--</option>
+        <option value="inclusiveness">Translate from French to English</option>
+        <option value="reliability and safety">Extract the invoice number from an invoice
+        </option>
+        <option value="transparency">Find images of products in a catalog</option>
+        
+    </select>
+</div>
+<div class="question">
+    <p>28:You are building a knowledge base by using QnA Maker.
+        Which file format can you use to populate the knowledge base?
+    </p>
+    <select id="question28">
+        <option value="">--Select an answer--</option>
+        <option value="inclusiveness">PPTX</option>
+        <option value="reliability and safety">XML
+        </option>
+        <option value="transparency">PDF</option>
+        
+    </select>
+</div>
+<div class="question">
+    <p>29:Which statement belong to generative AI.
+
+    </p>
+    <input type="radio" id="NO" name="GE" value="1">
+    <label for="6">Generative Al is a type of artificial intelligence (Al) that can
+        create new content which guarantees accuracy and truthfulness.
+    </label><br>
+    
+    <input type="radio" id="Yes" name="GE" value="2">
+    <label for="4">Generative Al is a type of artificial intelligence (Al) that can
+        generate new and original ideas or solutions without being
+        trained on existing data.
+
+    </label><br>
+    <input type="radio" id="Yes" name="GE" value="3">
+    <label for="4">Generative Al is a type of artificial intelligence (Al) that can
+        create new content, such as text, images, audio, and video.
+
+    </label>
+    
+    
+    
+</div>
+<div class="question">
+    <p>30:Identify the first stage of planning responsible API?
+
+
+    </p>
+    <input type="radio" id="NO" name="GEn" value="1">
+    <label for="6">Identify potential harms.
+    </label><br>
+    
+    <input type="radio" id="Yes" name="GEn" value="2">
+    <label for="4">Measure the presence of these harms
+
+    </label><br>
+    <input type="radio" id="Yes" name="GEn" value="3">
+    <label for="4">Mitigate the harms
+
+    </label><br>
+    <input type="radio" id="Yes" name="GEn" value="4">
+    <label for="4">Operate the solution responsibly by defining and following a deployment and operational readiness plan
+
+    </label>
+    
+    
+    
+</div>
+
+<div class="question">
+    <p>31:You need to make the written press releases of your company available in a range of languages.
+        Which service should you use?
+    </p>
+    <select id="question31">
+        <option value="">--Select an answer--</option>
+        <option value="inclusiveness">Translator</option>
+        <option value="reliability and safety">Text Analytics
+        </option>
+        <option value="transparency">Speech</option>
+        
+    </select>
+</div>
+
+<div class="question">
+    <p>32:You are authoring a Language Understanding (LUIS) application to support a music festival.
+        You want users to be able to ask questions about scheduled shows, such as: `Which act is playing on the main
+        stage?`
+        The question `Which act is playing on the main stage?` is an example of which type of element?
+    </p>
+    <select id="question32">
+        <option value="">--Select an answer--</option>
+        <option value="inclusiveness">Utterance</option>
+        <option value="reliability and safety">Entity
+        </option>
+        <option value="transparency">Intent</option>
+        
+    </select>
+</div>
+<div class="question">
+    <p>33:Which scenario is an example of a webchat bot?
+    </p>
+    <select id="question33">
+        <option value="">--Select an answer--</option>
+        <option value="inclusiveness">From a website interface, answer common questions about scheduled events and ticket purchases for a
+            music festival.</option>
+        <option value="reliability and safety">Translate into English questions entered by customers at a kiosk so that the appropriate person can call the
+            customers back.
+        </option>
+        <option value="transparency">Determine whether reviews entered on a website for a concert are positive or negative, and then add a
+            thumbs up or thumbs down emoji to the reviews.</option>
+        
+    </select>
+</div>
+<div class="question">
+    <p>34:You have a natural language processing (NLP) model that was created by using data obtained without permission.
+        Which Microsoft principle for responsible AI does this breach?
+
+    </p>
+    <input type="radio" id="NO" name="prin" value="1">
+    <label for="6">reliability and safety
+    </label><br>
+    
+    <input type="radio" id="Yes" name="prin" value="2">
+    <label for="4">privacy and security
+
+    </label><br>
+    <input type="radio" id="Yes" name="prin" value="3">
+    <label for="4">Transparency
+
+    </label>
+    
+    
+    
+    
+</div>
+<div class="question">
+    <p>35:You plan to deploy an Azure Machine Learning model by using the Machine Learning designer.
+        Which four actions should you perform in sequence? choose correct order.
+        </p>
+        <img src="area.jpg" alt="">select Answer:<br><br>
+    <input type="radio" id="NO" name="pri" value="1">
+    <label for="6"><img src="area1.jpg" alt="">
+    </label><br><br><br>
+    
+    <input type="radio" id="Yes" name="pri" value="2">
+    <label for="4"><img src="area2.jpg" alt="">
+
+    </label>
+    
+</div>
+<button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+         let timeLeft = 90 * 60; // 1 hour 30 minutes in seconds
+
+// Timer Function
+function updateTimer() {
+    const timerElement = document.getElementById("timer");
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+    timerElement.textContent = `Time Remaining: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    
+    if (timeLeft <= 0) {
+        submitForm(); // Automatically submit the form when time runs out
+    } else {
+        timeLeft--;
+        setTimeout(updateTimer, 1000);
+    }
+}
+  // Start Timer
+  updateTimer();
+
+// Handle Submit Button Click
+document.getElementById('testForm').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent default form submission
+    submitForm();
+});
+
+    </script>
+</body>
+</html>
